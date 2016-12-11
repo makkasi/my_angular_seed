@@ -4,7 +4,7 @@ Angular2 with TypeScript and Gulp
 #### 1. First install all packages
 npm install
 
-#### 2. Run the tsc watch
+#### 2. Run tsc watch
 npm run build:dev.watch
 
 #### 3. Run the lite server
