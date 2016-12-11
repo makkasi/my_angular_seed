@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    //The gulp build outputs files to the dist folder, 
+    //whereas tsc still generates files that co-exist with the source.
+    //Add this to set tsc path the same as the gulp path to prevent this. 
+    "outDir": "dist/app",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "gulpfile.ts",
+    "node_modules"
+  ]
+}
